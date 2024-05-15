@@ -192,18 +192,18 @@ h6 {
 
   display: none;
 }
-
 @media (max-width: 704px) {
+    nav {
+      display: none;
+    }
+  }
+  @media (max-width: 704px) {
   .fa-bars {
     display: block;
   }
 }
 
-@media (max-width: 704px) {
-  nav {
-    display: none;
-  }
-}
+
 
 @media (max-width: 630px){
     h2{
